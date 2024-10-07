@@ -1,0 +1,96 @@
+
+.bgimg{
+    background-image: url(https://static.india.com/wp-content/uploads/2023/04/Lord-Hanuman-Puja-Tips.jpg?impolicy=Medium_Resize&w=1200&h=800);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    
+}
+.bgchild{
+    background: linear-gradient(300deg,  #171b25c5  45%,#cf261aa3 41%);
+    height: 100vh;
+    width: 100%;
+}
+.but:hover{
+background-color: white !important;
+color: black;
+}
+.bottom{
+    border-bottom: 2px solid red;
+    width: 60%;
+}
+.hoverboder:hover{
+    border-bottom:  3px solid red;
+}
+.bodom{
+    border-bottom: 2px solid red;
+    width: 100px;
+}
+.bgcolor{
+    background-color: #171a23;
+    width: 100%;
+    border-radius: 5px;
+}
+.hoverboder{
+    background-color: white;
+}
+.vikas{
+    position: relative;
+    height: 40vh;
+}
+.vikash{
+    position: absolute;
+    top: -60px;
+}
+
+@media (max-width:922px) {
+    .vikash{
+        position: static;
+    
+    }
+    .vikas{
+        height: auto;
+    }
+}
+.bgcolor:hover{
+box-shadow: 8px -8px red;
+}
+.shado{
+    box-shadow: -20px 20px black;
+}
+.shod{
+    box-shadow: 20px -20px black;
+}
+@media (max-width:768px) {
+    .king{
+        text-align: center ;
+    }
+    .foterdivbottom{
+        margin: auto;
+    }
+    .vikash{
+        display: none !important;
+        position: static !important;
+    }
+}
+.fotbgimg{
+    background-image: url(https://img.freepik.com/premium-photo/abstract-shadowy-textures-subtle-highlights-luminescence-seep-through-dark-background_764067-9315.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    width: 100%;
+    background-attachment: fixed;
+}
+.foterdivbottom{
+    width: 80px;
+    border-bottom: 2px solid red;
+}
+.hoover:hover{
+    color: red;
+}
+.photo{
+    width: 20%;
+}
