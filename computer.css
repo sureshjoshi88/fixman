@@ -4,13 +4,13 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: auto;
     width: 100%;
     
 }
 .bgchild{
     background: linear-gradient(300deg,  #171b25c5  45%,#cf261aa3 41%);
-    height: 100vh;
+    height: auto;
     width: 100%;
 }
 .but:hover{
